@@ -1,0 +1,3 @@
+F:/project/json-parser/cmake-build-debug/CMakeFiles/json_parser.dir
+F:/project/json-parser/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/project/json-parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir

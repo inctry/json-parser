@@ -1,0 +1,456 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/project/json-parser/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "F:/project/json-parser/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_ff23e/fast && F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ff23e.dir\build.make CMakeFiles/cmTC_ff23e.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff23e.dir/testCCompiler.c.obj
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe"    -o CMakeFiles\cmTC_ff23e.dir\testCCompiler.c.obj   -c F:\project\json-parser\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_ff23e.exe
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ff23e.dir\link.txt --verbose=1
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ff23e.dir/objects.a
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\ar.exe" cr CMakeFiles\cmTC_ff23e.dir/objects.a @CMakeFiles\cmTC_ff23e.dir\objects1.rsp
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_ff23e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ff23e.exe -Wl,--out-implib,libcmTC_ff23e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ff23e.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_193ff/fast && F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_193ff.dir\build.make CMakeFiles/cmTC_193ff.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_193ff.dir/CMakeCCompilerABI.c.obj
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe"   -v -o CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj   -c "G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.8.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-2 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.8.1 (tdm64-2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/cc1.exe -quiet -v -iprefix f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/ -D_REENTRANT G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Inctry\AppData\Local\Temp\ccLZS3K0.s
+GNU C (tdm64-2) version 4.8.1 (x86_64-w64-mingw32)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C (tdm64-2) version 4.8.1 (x86_64-w64-mingw32)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6f142dab71d09cf81a62c7f630ff3c02
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj C:\Users\Inctry\AppData\Local\Temp\ccLZS3K0.s
+GNU assembler version 2.23.2 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.23.2
+COMPILER_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/;f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_193ff.exe
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_193ff.dir\link.txt --verbose=1
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_193ff.dir/objects.a
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\ar.exe" cr CMakeFiles\cmTC_193ff.dir/objects.a @CMakeFiles\cmTC_193ff.dir\objects1.rsp
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_193ff.dir/objects.a -Wl,--no-whole-archive  -o cmTC_193ff.exe -Wl,--out-implib,libcmTC_193ff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=f:/program\ files\ (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.8.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-2 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.8.1 (tdm64-2) 
+COMPILER_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/;f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_193ff.exe' '-mtune=generic' '-march=x86-64'
+ f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/collect2.exe -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_193ff.exe f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1 -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_193ff.dir/objects.a --no-whole-archive --out-implib libcmTC_193ff.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/include]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include]
+  implicit include dirs: [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include;F:/Program Files (x86)/Dev-Cpp/MinGW64/include;F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed;F:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_193ff/fast && F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_193ff.dir\build.make CMakeFiles/cmTC_193ff.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_193ff.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe"   -v -o CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj   -c "G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.8.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-2 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (tdm64-2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/cc1.exe -quiet -v -iprefix f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/ -D_REENTRANT G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\share\cmake-3.15\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Inctry\AppData\Local\Temp\ccLZS3K0.s]
+  ignore line: [GNU C (tdm64-2) version 4.8.1 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (tdm64-2) version 4.8.1 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6f142dab71d09cf81a62c7f630ff3c02]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj C:\Users\Inctry\AppData\Local\Temp\ccLZS3K0.s]
+  ignore line: [GNU assembler version 2.23.2 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.23.2]
+  ignore line: [COMPILER_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_193ff.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_193ff.exe]
+  ignore line: ["G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_193ff.dir\link.txt --verbose=1]
+  ignore line: ["G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_193ff.dir/objects.a]
+  ignore line: ["F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\ar.exe" cr CMakeFiles\cmTC_193ff.dir/objects.a @CMakeFiles\cmTC_193ff.dir\objects1.rsp]
+  ignore line: ["F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_193ff.dir/objects.a -Wl,--no-whole-archive  -o cmTC_193ff.exe -Wl,--out-implib,libcmTC_193ff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=f:/program\ files\ (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.8.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-2 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (tdm64-2) ]
+  ignore line: [COMPILER_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_193ff.exe' '-mtune=generic' '-march=x86-64']
+  ignore line: [ f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/collect2.exe -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_193ff.exe f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1 -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_193ff.dir/objects.a --no-whole-archive --out-implib libcmTC_193ff.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_98528/fast && F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_98528.dir\build.make CMakeFiles/cmTC_98528.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98528.dir/testCXXCompiler.cxx.obj
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"     -o CMakeFiles\cmTC_98528.dir\testCXXCompiler.cxx.obj -c F:\project\json-parser\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_98528.exe
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_98528.dir\link.txt --verbose=1
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_98528.dir/objects.a
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\ar.exe" cr CMakeFiles\cmTC_98528.dir/objects.a @CMakeFiles\cmTC_98528.dir\objects1.rsp
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_98528.dir/objects.a -Wl,--no-whole-archive  -o cmTC_98528.exe -Wl,--out-implib,libcmTC_98528.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_98528.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_646e9/fast && F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_646e9.dir\build.make CMakeFiles/cmTC_646e9.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_646e9.dir/CMakeCXXCompilerABI.cpp.obj
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"    -v -o CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj -c "G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.8.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-2 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.8.1 (tdm64-2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/cc1plus.exe -quiet -v -iprefix f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/ -D_REENTRANT G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Inctry\AppData\Local\Temp\cc8PvtUI.s
+GNU C++ (tdm64-2) version 4.8.1 (x86_64-w64-mingw32)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"
+ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed
+ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++ (tdm64-2) version 4.8.1 (x86_64-w64-mingw32)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9489899e2897fc365a847d4dac1a87ca
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Inctry\AppData\Local\Temp\cc8PvtUI.s
+GNU assembler version 2.23.2 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.23.2
+COMPILER_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/;f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_646e9.exe
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_646e9.dir\link.txt --verbose=1
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_646e9.dir/objects.a
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\ar.exe" cr CMakeFiles\cmTC_646e9.dir/objects.a @CMakeFiles\cmTC_646e9.dir\objects1.rsp
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_646e9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_646e9.exe -Wl,--out-implib,libcmTC_646e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe
+COLLECT_LTO_WRAPPER=f:/program\ files\ (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.8.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-2 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.8.1 (tdm64-2) 
+COMPILER_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/;f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/;f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_646e9.exe' '-mtune=generic' '-march=x86-64'
+ f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/collect2.exe -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_646e9.exe f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1 -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_646e9.dir/objects.a --no-whole-archive --out-implib libcmTC_646e9.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed]
+    add: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/include]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed]
+  collapse include dir [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include] ==> [F:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include]
+  implicit include dirs: [F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++;F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32;F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward;F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include;F:/Program Files (x86)/Dev-Cpp/MinGW64/include;F:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed;F:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_646e9/fast && F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_646e9.dir\build.make CMakeFiles/cmTC_646e9.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_646e9.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"    -v -o CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj -c "G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.8.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-2 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (tdm64-2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/cc1plus.exe -quiet -v -iprefix f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/ -D_REENTRANT G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Inctry\AppData\Local\Temp\cc8PvtUI.s]
+  ignore line: [GNU C++ (tdm64-2) version 4.8.1 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "f:/program files (x86)/dev-cpp/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/x86_64-w64-mingw32]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++/backward]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../include]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/include-fixed]
+  ignore line: [ f:\program files (x86)\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (tdm64-2) version 4.8.1 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9489899e2897fc365a847d4dac1a87ca]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Inctry\AppData\Local\Temp\cc8PvtUI.s]
+  ignore line: [GNU assembler version 2.23.2 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.23.2]
+  ignore line: [COMPILER_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_646e9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_646e9.exe]
+  ignore line: ["G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_646e9.dir\link.txt --verbose=1]
+  ignore line: ["G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_646e9.dir/objects.a]
+  ignore line: ["F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\ar.exe" cr CMakeFiles\cmTC_646e9.dir/objects.a @CMakeFiles\cmTC_646e9.dir\objects1.rsp]
+  ignore line: ["F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_646e9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_646e9.exe -Wl,--out-implib,libcmTC_646e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=f:/program\ files\ (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.8.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-2 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (tdm64-2) ]
+  ignore line: [COMPILER_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_646e9.exe' '-mtune=generic' '-march=x86-64']
+  ignore line: [ f:/program files (x86)/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.1/collect2.exe -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_646e9.exe f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1 -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib -Lf:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_646e9.dir/objects.a --no-whole-archive --out-implib libcmTC_646e9.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt f:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe cmTC_1f262/fast && F:/Program Files (x86)/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_1f262.dir\build.make CMakeFiles/cmTC_1f262.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f262.dir/feature_tests.cxx.obj
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"    -std=c++1y -o CMakeFiles\cmTC_1f262.dir\feature_tests.cxx.obj -c F:\project\json-parser\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_1f262.exe
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1f262.dir\link.txt --verbose=1
+"G:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_1f262.dir/objects.a
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\ar.exe" cr CMakeFiles\cmTC_1f262.dir/objects.a @CMakeFiles\cmTC_1f262.dir\objects1.rsp
+"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_1f262.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1f262.exe -Wl,--out-implib,libcmTC_1f262.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1f262.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/project/json-parser/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
