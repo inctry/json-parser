@@ -122,32 +122,59 @@ json_parser/fast:
 	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/build
 .PHONY : json_parser/fast
 
-main.obj: main.cpp.obj
+leptjson.obj: leptjson.c.obj
 
-.PHONY : main.obj
+.PHONY : leptjson.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+leptjson.c.obj:
+	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/leptjson.c.obj
+.PHONY : leptjson.c.obj
 
-main.i: main.cpp.i
+leptjson.i: leptjson.c.i
 
-.PHONY : main.i
+.PHONY : leptjson.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/main.cpp.i
-.PHONY : main.cpp.i
+leptjson.c.i:
+	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/leptjson.c.i
+.PHONY : leptjson.c.i
 
-main.s: main.cpp.s
+leptjson.s: leptjson.c.s
 
-.PHONY : main.s
+.PHONY : leptjson.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/main.cpp.s
-.PHONY : main.cpp.s
+leptjson.c.s:
+	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/leptjson.c.s
+.PHONY : leptjson.c.s
+
+test.obj: test.c.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.c.obj:
+	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/test.c.obj
+.PHONY : test.c.obj
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/test.c.s
+.PHONY : test.c.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... json_parser
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... leptjson.obj
+	@echo ... leptjson.i
+	@echo ... leptjson.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

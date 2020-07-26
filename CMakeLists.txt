@@ -3,4 +3,4 @@ project(json_parser)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(json_parser main.cpp)
+add_executable(json_parser leptjson.h leptjson.c test.c)

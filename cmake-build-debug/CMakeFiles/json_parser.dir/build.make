@@ -56,32 +56,47 @@ include CMakeFiles/json_parser.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/json_parser.dir/flags.make
 
-CMakeFiles/json_parser.dir/main.cpp.obj: CMakeFiles/json_parser.dir/flags.make
-CMakeFiles/json_parser.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\project\json-parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/json_parser.dir/main.cpp.obj"
-	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\json_parser.dir\main.cpp.obj -c F:\project\json-parser\main.cpp
+CMakeFiles/json_parser.dir/leptjson.c.obj: CMakeFiles/json_parser.dir/flags.make
+CMakeFiles/json_parser.dir/leptjson.c.obj: ../leptjson.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\project\json-parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/json_parser.dir/leptjson.c.obj"
+	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\json_parser.dir\leptjson.c.obj   -c F:\project\json-parser\leptjson.c
 
-CMakeFiles/json_parser.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/json_parser.dir/main.cpp.i"
-	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\project\json-parser\main.cpp > CMakeFiles\json_parser.dir\main.cpp.i
+CMakeFiles/json_parser.dir/leptjson.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/json_parser.dir/leptjson.c.i"
+	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\project\json-parser\leptjson.c > CMakeFiles\json_parser.dir\leptjson.c.i
 
-CMakeFiles/json_parser.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/json_parser.dir/main.cpp.s"
-	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\project\json-parser\main.cpp -o CMakeFiles\json_parser.dir\main.cpp.s
+CMakeFiles/json_parser.dir/leptjson.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/json_parser.dir/leptjson.c.s"
+	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\project\json-parser\leptjson.c -o CMakeFiles\json_parser.dir\leptjson.c.s
+
+CMakeFiles/json_parser.dir/test.c.obj: CMakeFiles/json_parser.dir/flags.make
+CMakeFiles/json_parser.dir/test.c.obj: ../test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\project\json-parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/json_parser.dir/test.c.obj"
+	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\json_parser.dir\test.c.obj   -c F:\project\json-parser\test.c
+
+CMakeFiles/json_parser.dir/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/json_parser.dir/test.c.i"
+	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\project\json-parser\test.c > CMakeFiles\json_parser.dir\test.c.i
+
+CMakeFiles/json_parser.dir/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/json_parser.dir/test.c.s"
+	"F:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\project\json-parser\test.c -o CMakeFiles\json_parser.dir\test.c.s
 
 # Object files for target json_parser
 json_parser_OBJECTS = \
-"CMakeFiles/json_parser.dir/main.cpp.obj"
+"CMakeFiles/json_parser.dir/leptjson.c.obj" \
+"CMakeFiles/json_parser.dir/test.c.obj"
 
 # External object files for target json_parser
 json_parser_EXTERNAL_OBJECTS =
 
-json_parser.exe: CMakeFiles/json_parser.dir/main.cpp.obj
+json_parser.exe: CMakeFiles/json_parser.dir/leptjson.c.obj
+json_parser.exe: CMakeFiles/json_parser.dir/test.c.obj
 json_parser.exe: CMakeFiles/json_parser.dir/build.make
 json_parser.exe: CMakeFiles/json_parser.dir/linklibs.rsp
 json_parser.exe: CMakeFiles/json_parser.dir/objects1.rsp
 json_parser.exe: CMakeFiles/json_parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\project\json-parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable json_parser.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\project\json-parser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable json_parser.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\json_parser.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

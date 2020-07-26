@@ -73,12 +73,12 @@ preinstall:
 CMakeFiles/json_parser.dir/all:
 	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/depend
 	$(MAKE) -f CMakeFiles\json_parser.dir\build.make CMakeFiles/json_parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\project\json-parser\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target json_parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\project\json-parser\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target json_parser"
 .PHONY : CMakeFiles/json_parser.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/json_parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\project\json-parser\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\project\json-parser\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/json_parser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\project\json-parser\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/json_parser.dir/rule

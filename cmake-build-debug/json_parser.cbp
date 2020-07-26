@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/project/json-parser/main.cpp">
+		<Unit filename="F:/project/json-parser/leptjson.c">
+			<Option target="json_parser"/>
+		</Unit>
+		<Unit filename="F:/project/json-parser/leptjson.h">
+			<Option target="json_parser"/>
+		</Unit>
+		<Unit filename="F:/project/json-parser/test.c">
 			<Option target="json_parser"/>
 		</Unit>
 		<Unit filename="F:/project/json-parser/CMakeLists.txt">

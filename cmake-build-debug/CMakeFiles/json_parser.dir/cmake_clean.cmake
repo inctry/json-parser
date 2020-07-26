@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/json_parser.dir/main.cpp.obj"
+  "CMakeFiles/json_parser.dir/leptjson.c.obj"
+  "CMakeFiles/json_parser.dir/test.c.obj"
   "json_parser.exe"
   "json_parser.exe.manifest"
   "json_parser.pdb"
@@ -7,6 +8,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C)
   include(CMakeFiles/json_parser.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
